@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="item">
+      <h1>Apple</h1>
+      <p>$5</p>
+      <button value="item1" data-action="add" onclick="action(this,event)">Add this to cart</button>
+    </div>
+    <div class="item">
+      <h1>Mango</h1>
+      <p>$10</p>
+      <button value="item2" data-action="add" onclick="action(this,event)">Add this to cart</button>
+    </div>
+    <div class="item">
+      <h1>banana</h1>
+      <p>$15</p>
+      <button value="item3" data-action="add" onclick="action(this,event)">Add this to cart</button>
+    </div>
+  </div>
+  
+  
+  <div class="container">
+    <ul id="user--selected--items">
+    </ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
